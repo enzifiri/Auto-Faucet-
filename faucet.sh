@@ -4,9 +4,9 @@ WALLET="wallet"
 ADDRESS="$(nodeismid keys show $WALLET -a)"
 JSON=$(jq -n --arg addr "$ADDRESS" '{"denom":"unodeismitoken","address":$addr}')
 #bahsis vermek isteyenler icin benim validator adresi
-TIP_ADDR=cüzdanımız
+TIP_ADDR=bahsiscüzdanı
 #Kendi Validatör Adresinizi Girin
-VALIDATOR=
+VALIDATOR=validatörcüzdani
 
     
 while :
